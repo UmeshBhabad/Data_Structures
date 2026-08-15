@@ -4,7 +4,7 @@ class Solution
     {
         for(int i = 0; i < 1000; i++)
         {
-            minWindow(new String(), new String());
+            minWindow("ab", "a");
         }
     }
     public static String minWindow(String s, String t)
