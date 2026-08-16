@@ -1,18 +1,9 @@
 class Solution
 {
-    static
-    {
-        for(int i = 0; i < 1000; i++)
-        {
-            minWindow("ab", "a");
-        }
-    }
-    public static String minWindow(String s, String t)
+    public String minWindow(String s, String t)
     {
         int n = s.length();
         int m = t.length();
-
-        // Map<Character, Integer> map = new HashMap<>();
 
         Map<Character, Integer> tMap = new HashMap<>();
         Map<Character, Integer> sMap = new HashMap<>();
